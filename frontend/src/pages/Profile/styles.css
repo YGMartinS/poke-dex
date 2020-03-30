@@ -1,0 +1,93 @@
+.profile-container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 32px auto;
+    color: whitesmoke;
+}
+
+.profile-container header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-container header img {
+    height: 100%;
+}
+
+.profile-container header span {
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.profile-container header a {
+    width: 260px;
+    margin-left: auto;
+}
+
+.profile-container header button {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-top: 16px;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+}
+
+.profile-container header button:hover {
+    border-color: #999;
+}
+
+.profile-container h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 80px 0 20px;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(37, 67, 148); /* cor da borda */
+}
+
+.profile-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.profile-container ul li {
+    display: block;
+    margin: 8px 4px;
+    max-width: 280px;
+    border: 3px solid rgb(37, 67, 148);
+    color: #e24d08;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.profile-container ul li img {
+    height: 240px;
+    margin-bottom: 4px;
+}
+
+.profile-container ul li strong {
+    display: block;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.profile-container ul li .description strong{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 8px;
+    text-align: left;
+    padding: 0 12px;
+}
+
+.profile-container ul li .description p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 16px;
+    text-align: left;
+    padding: 0 12px;
+}
